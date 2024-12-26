@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lex Bryan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Lex Bryan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="header-title">Welcome to my portfolio</h1>
+                    <p class="abt-text">My name is Lex Byran and I am a student at Algonquin College studying Interactive Media Design with a focus on Web and App Develeopment. Over the course of my program I have worked on a number of projects I am excited to showcase for you. In addition, I spent a semester in a Co-Op Program where I worked with the Department of Finance Canada to develope a dynamically generated sidenav and QA tool for the Government's Fall Economic Statement.</p>
+                    <div class="skills">
+                      <h3>Skills</h3>
+                      <img class="skill-icons" src="imgs/pyicon.png" alt="">
+                      <img class="skill-icons" src="imgs/jsicon.png" alt="">
+                      <img class="skill-icons" src="imgs/devicon.png" alt="">
+                      <img class="skill-icons" src="imgs/sqlicon.png" alt="">
+                    </div>
+                    <a href="#" class="btn btn-primary">Download CV</a>
+                </div>
+                <div class="col-lg-6">
+                  <!-- planeswalker test -->
+                  <div class="card-container">
+                    <div class="planeswalker-card">
+                      <!-- Title Section -->
+                      <div class="card-header">
+                        <div class="card-title">
+                          <img src="imgs/bordername.png" alt="">
+                          <p>Lex Bryan</p>
+                      </div>
+                        <div class="mana-cost">
+                          <div class="mana-circle">$</div>
+                          <div class="mana-circle">$</div>
+                          <div class="mana-circle">$</div>
+                        </div>
+                      </div>
+                      <!-- Image Section -->
+                      <div class="card-image">
+                        <img src="imgs/profilepic_bcn_card.jpg" alt="Lex Bryan" class="img-fluid">
+                      </div>
+                      <!-- Skills Section -->
+                      <div class="card-body">
+                        <div class="subtext">
+                          <img src="imgs/border3.png" alt="">
+                          <p>Digiwalker — Web Wizard</p>
+                        </div>
+                        <div class="skills-text">
+                          <p> Lex Bryan is the web wizard who transforms ideas into dynamic, interactive experiences. With his coding wand (aka keyboard) and a dash of creativity, he conjures seamless web applications that are as powerful as they are user-friendly. Whether crafting full-stack projects or slaying bugs, Lex is your go-to digital sorcerer for all things web development. 
+                            <br>
+                            Ready to bring your digital dreams to life?</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                    <!-- <img src="imgs/profilepic_bcn.jpg" alt="Header Image" class="img-fluid"> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+      <!-- About -->
+      <!-- <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="images/about.png" alt="About Image" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="section-title">About Us</h2>
+              <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc ultricies ultricies.</p>
+              <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc ultricies ultricies.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="projects">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="buttonwrap">
+            <button class="btn btn-primary" id="jsbutton">JavaScript</button>
+            <button class="btn btn-primary" id="pybutton">Python</button>
+          </div>
+          
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="mtg-card">
+                <div class="mtg-card-header">JavaScript Project 1</div>
+                <div class="mtg-card-image" style="background-image: url('https://via.placeholder.com/300x400');"></div>
+                <div class="mtg-card-body">
+                    <p class="mtg-card-text">
+                        This is a description of the project.
+                    </p>
+                </div>
+                <div class="mtg-card-footer">
+                  <h5>Project Type —</h5>
+                  <button class="viewpro btn btn-secondary">View Project</button> 
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="mtg-card">
+                <div class="mtg-card-header">JavaScript Project 2</div>
+                <div class="mtg-card-image" style="background-image: url('https://via.placeholder.com/300x400');"></div>
+                <div class="mtg-card-body">
+                    <p class="mtg-card-text">
+                        This is a description of the project.
+                    </p>
+                </div>
+                <div class="mtg-card-footer">
+                  <h5>Project Type —</h5>
+                  <button class="viewpro btn btn-secondary">View Project</button> 
+                </div>
+              </div>              
+            </div>
+            <div class="col-lg-4">
+              <div class="mtg-card">
+                <div class="mtg-card-header">JavaScript Project 3</div>
+                <div class="mtg-card-image" style="background-image: url('https://via.placeholder.com/300x400');"></div>
+                <div class="mtg-card-body">
+                    <p class="mtg-card-text">
+                        This is a description of the project.
+                    </p>
+                </div>
+                <div class="mtg-card-footer">
+                  <h5>Project Type —</h5>
+                  <button class="viewpro btn btn-secondary">View Project</button> 
+                </div>
+
+              </div>              
+            </div>
+            
+            <!-- <div class="col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc ultricies ultricies.</p>
+                  <a href="#" class="btn btn-primary">View Project</a>
+                  <br>
+                  <img src="images/project2.png" alt="Project 2" class="card-img-bottom">
+                </div>
+              </div>
+            </div> -->
+          </div> 
+          <!-- end row -->
+          
+        </div>
+      </section>
+
+      <section class="misc">
+        <div class="container">
+          <h2 class="section-title">Other Work</h2>
+          <div class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-5">
+              <h3>Graphic Design</h3>
+              <ul class="otherworks">
+                <li><p>Lorem ipsum dolor</p> <span class="arrow">&#8594;</span>
+                </li>
+                <li><p>Lorem ipsum dolor</p> <span class="arrow">&#8594;</span>
+                </li>
+                <li><p>Lorem ipsum dolor</p> <span class="arrow">&#8594;</span>
+                </li>
+                <li><p>Lorem ipsum dolor</p> <span class="arrow">&#8594;</span>
+                </li>
+                <li><p>Lorem ipsum dolor</p> <span class="arrow">&#8594;</span>
+                </li>
+              </ul>
+
+            </div>
+            <div class="col-lg-5">
+              <h3>Marketing</h3>
+              <ul class="otherworks">
+                <li><p>Lorem ipsum dolor</p> <span class="arrow">&#8594;</span>
+                </li>
+                <li><p>Lorem ipsum dolor</p> <span class="arrow">&#8594;</span>
+                </li>
+                <li><p>Lorem ipsum dolor</p> <span class="arrow">&#8594;</span>
+                </li>
+                <li><p>Lorem ipsum dolor</p> <span class="arrow">&#8594;</span>
+                </li>
+                <li><p>Lorem ipsum dolor</p> <span class="arrow">&#8594;</span>
+                </li>
+              </ul>
+
+            </div>
+            <div class="col-lg-1">
+            </div>
+
+          </div>
+
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+              <div class="floating">
+                <div class="circle circle-1">
+                  <p>IDK</p>
+                </div>
+                <div class="circle circle-2">
+                  <a href="mailto:matthew.lex.bryan@gmail.com">
+                  <p>Gmail</p>
+                  </a>
+                </div>
+                <div class="circle circle-3">
+                  <a href="https://www.linkedin.com/in/lex-bryan/"><p>LinkedIn</p></a>
+                </div>
+                <div class="circle circle-4">
+                  <a href="https://github.com/Brya0127"><p>Github</p></a>
+                </div>
+                <div class="circle circle-5">
+                  <a href="imgs/Matthew_Lex_Bryan_Resume.pdf" download="Matthew_Lex_Bryan_Resume.pdf"><p>CV</p></a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-lg-1"></div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Blank Template</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies ultricies, nunc nunc ultricies ultricies.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/home.js"></script>
+</body>
+</html>
